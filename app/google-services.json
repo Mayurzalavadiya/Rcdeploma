@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "176989791491",
+    "project_id": "rc-diploma-app",
+    "storage_bucket": "rc-diploma-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176989791491:android:189976a475366806477536",
+        "android_client_info": {
+          "package_name": "rcdiploma.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176989791491-599q6mf9mu4e66gqfg5tu0nvknnln28k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rcdiploma.app",
+            "certificate_hash": "fd0ebf2589d56051195f21bab75b3f35d708327c"
+          }
+        },
+        {
+          "client_id": "176989791491-dkcgf0ccpuq3p5542sbfakproa9bd4l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB97cIimEIKnI-a4SxB3D8-xf5juawBng8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176989791491-dkcgf0ccpuq3p5542sbfakproa9bd4l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

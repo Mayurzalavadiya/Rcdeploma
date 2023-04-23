@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/drawable-v21/ic_menu_camera.xml" value="0.2055" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/drawable-v21/ic_menu_gallery.xml" value="0.2055" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/drawable-v21/ic_menu_slideshow.xml" value="0.2055" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2055" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/drawable/custom_border.xml" value="0.2555" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/drawable/custom_button.xml" value="0.2055" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2055" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/drawable/ic_man.xml" value="0.2055" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/drawable/side_nav_bar.xml" value="0.2055" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/layout/activity_branch_list.xml" value="0.25" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/layout/activity_document_upload.xml" value="0.25" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/layout/activity_facebook_login_demo.xml" value="0.25" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/layout/activity_google_login.xml" value="0.25" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/layout/activity_json_login.xml" value="0.25" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/layout/activity_json_profile.xml" value="0.25" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/layout/activity_navigation.xml" value="0.25" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/layout/activity_recycler.xml" value="0.25" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/layout/activity_sqlite_list.xml" value="0.25" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/layout/custom_recycler.xml" value="0.25" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/layout/fragment_call.xml" value="0.25" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/layout/fragment_chat.xml" value="0.25" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/RCDiplomaApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/android/RCDiplomaApp/app/src/main/res/layout/activity_contact_list.xml" value="0.25" />
+        <entry key="..\:/android/RCDiplomaApp/app/src/main/res/layout/custom_contact.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

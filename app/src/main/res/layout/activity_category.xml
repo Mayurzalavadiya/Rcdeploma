@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            app:iss_corner_radius="20"
+            app:iss_error_image="@mipmap/ic_launcher"
+            app:iss_placeholder="@mipmap/ic_launcher"
+            app:iss_period="5000"
+            app:iss_delay="1000"
+            app:iss_auto_cycle="true"
+            android:layout_margin="10dp"
+            android:id="@+id/category_banner"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@id/category_banner"
+            android:id="@+id/category_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/category_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="15dp"
+        app:backgroundTint="@color/dark_blue"
+        app:srcCompat="@drawable/add"
+        app:tint="@color/white" />
+
+</FrameLayout>

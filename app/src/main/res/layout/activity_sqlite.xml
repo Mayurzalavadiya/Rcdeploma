@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sidebar_bg"
+    tools:context=".SqliteActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/sqlite_roll"
+                style="@style/edittext_semibold_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_border"
+                android:hint="Enter Roll No."
+                android:inputType="number"
+                android:maxLength="5"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/sqlite_name"
+                style="@style/edittext_semibold_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_border"
+                android:hint="Enter Name"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/sqlite_mark"
+                style="@style/edittext_semibold_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_border"
+                android:hint="Enter Mark"
+                android:inputType="number"
+                android:maxLength="3"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/sqlite_insert"
+                style="@style/button_semibold_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_button"
+                android:text="Insert"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/sqlite_update"
+                style="@style/button_semibold_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_button"
+                android:text="Update"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/sqlite_delete"
+                style="@style/button_semibold_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_button"
+                android:text="Delete"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/sqlite_show"
+                style="@style/button_semibold_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_button"
+                android:text="Show Data"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/sqlite_show_recycler"
+                style="@style/button_semibold_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_button"
+                android:text="Show Data In Recyclerview"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/sqlite_show_custom_list"
+                style="@style/button_semibold_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_button"
+                android:text="Show Data In Custom Listview"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/sqlite_search"
+                style="@style/button_semibold_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_button"
+                android:text="Search Data"
+                app:backgroundTint="@null" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

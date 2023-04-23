@@ -1,0 +1,18 @@
+package rcdiploma.app.RetrofitClass;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+public class AddFcmData {
+
+    @SerializedName("Status")
+    @Expose
+    public String status;
+    @SerializedName("Message")
+    @Expose
+    public String message;
+    @SerializedName("id")
+    @Expose
+    public String id;
+
+}
